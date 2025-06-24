@@ -4,7 +4,6 @@ Bem-vindo ao Science Survivors, um jogo de sobrevivência 2D estilo "bullet hell
 <p align ="center">
     <img src="img/ExemploGameplay.gif" alt="Science Survivors Gameplay" width="40%"> 
 </p>
-**[Clique aqui para jogar!](https://enriconsilva.github.io/Jogo-javascript/)** ---
 
 ## 📖 Sobre o Projeto
 
