@@ -41,14 +41,14 @@ class Jogador {
 
         // Sprites para cada direção
         this.spriteDireita1 = new Image();
-        this.spriteDireita1.src = "../img/Jogador_direita_1.png";
+        this.spriteDireita1.src = "img/Jogador_direita_1.png";
         this.spriteDireita2 = new Image();
-        this.spriteDireita2.src = "../img/Jogador_direita_2.png";
+        this.spriteDireita2.src = "img/Jogador_direita_2.png";
 
         this.spriteEsquerda1 = new Image();
-        this.spriteEsquerda1.src = "../img/Jogador_esquerda_1.png";
+        this.spriteEsquerda1.src = "img/Jogador_esquerda_1.png";
         this.spriteEsquerda2 = new Image();
-        this.spriteEsquerda2.src = "../img/Jogador_esquerda_2.png";
+        this.spriteEsquerda2.src = "img/Jogador_esquerda_2.png";
 
         // Controle de direção e animação
         this.direcao = 'direita'; // Começa assumindo que está parado ou olhando para a direita
@@ -318,18 +318,18 @@ class Inimigo {
 // Classe do inimigo inicial, aqui está apenas os frames e como eles devem ser atualizados
 class InimigoFraco extends Inimigo {
     constructor(x, y) {
-        super(x, y, 26, 78, 30, 0.7, 2, 20, '../img/peca_fraca.png');
+        super(x, y, 26, 78, 30, 0.7, 2, 20, 'img/peca_fraca.png');
 
         // Carrega os sprite sheets para as direções esquerda e direita
         this.spriteDireita1 = new Image();
-        this.spriteDireita1.src = "../img/Inimigo_fraco_direita_1_verde.png";
+        this.spriteDireita1.src = "img/Inimigo_fraco_direita_1_verde.png";
         this.spriteDireita2 = new Image();
-        this.spriteDireita2.src = "../img/Inimigo_fraco_direita_2_verde.png";
+        this.spriteDireita2.src = "img/Inimigo_fraco_direita_2_verde.png";
 
         this.spriteEsquerda1 = new Image();
-        this.spriteEsquerda1.src = "../img/Inimigo_fraco_esquerda_1_verde.png";
+        this.spriteEsquerda1.src = "img/Inimigo_fraco_esquerda_1_verde.png";
         this.spriteEsquerda2 = new Image();
-        this.spriteEsquerda2.src = "../img/Inimigo_fraco_esquerda_2_verde.png";
+        this.spriteEsquerda2.src = "img/Inimigo_fraco_esquerda_2_verde.png";
 
         // Controle de animação
         this.direcao = 'direita'; // Começa assumindo que está olhando para a direita
@@ -377,18 +377,18 @@ class InimigoFraco extends Inimigo {
 // Classe do inimigo médio, aqui está apenas os frames e como eles devem ser atualizados
 class Inimigomedio extends Inimigo{
     constructor(x,y){
-        super(x,y,30,72, 40, 0.5, 5, 40, '../img/peca_media.png');
+        super(x,y,30,72, 40, 0.5, 5, 40, 'img/peca_media.png');
     
      // Carrega os sprite sheets para as direções esquerda e direita
      this.spriteDireita1 = new Image();
-     this.spriteDireita1.src = "../img/Inimigo_medio_direita_1_verde_claro.png";
+     this.spriteDireita1.src = "img/Inimigo_medio_direita_1_verde_claro.png";
      this.spriteDireita2 = new Image();
-     this.spriteDireita2.src = "../img/Inimigo_medio_direita_2_verde_claro.png";
+     this.spriteDireita2.src = "img/Inimigo_medio_direita_2_verde_claro.png";
 
      this.spriteEsquerda1 = new Image();
-     this.spriteEsquerda1.src = "../img/Inimigo_medio_esquerda_1_verde_claro.png";
+     this.spriteEsquerda1.src = "img/Inimigo_medio_esquerda_1_verde_claro.png";
      this.spriteEsquerda2 = new Image();
-     this.spriteEsquerda2.src = "../img/Inimigo_medio_esquerda_2_verde_claro.png";
+     this.spriteEsquerda2.src = "img/Inimigo_medio_esquerda_2_verde_claro.png";
 
      // Controle de animação
      this.direcao = 'direita'; // Começa assumindo que está olhando para a direita
@@ -436,18 +436,18 @@ class Inimigomedio extends Inimigo{
 // Classe do inimigo forte, aqui está apenas os frames e como eles devem ser atualizados
 class Inimigoforte extends Inimigo{
     constructor(x,y){
-        super(x,y,36,67, 50, 0.3, 10, 60,  '../img/peca_forte.png');
+        super(x,y,36,67, 50, 0.3, 10, 60,  'img/peca_forte.png');
         
         // Carrega os sprite sheets para as direções esquerda e direita
      this.spriteDireita1 = new Image();
-     this.spriteDireita1.src = "../img/Inimigo_forte_direita_1_vermelho.png";
+     this.spriteDireita1.src = "img/Inimigo_forte_direita_1_vermelho.png";
      this.spriteDireita2 = new Image();
-     this.spriteDireita2.src = "../img/Inimigo_forte_direita_2_vermelho.png";
+     this.spriteDireita2.src = "img/Inimigo_forte_direita_2_vermelho.png";
 
      this.spriteEsquerda1 = new Image();
-     this.spriteEsquerda1.src = "../img/Inimigo_forte_esquerda_1_vermelho.png";
+     this.spriteEsquerda1.src = "img/Inimigo_forte_esquerda_1_vermelho.png";
      this.spriteEsquerda2 = new Image();
-     this.spriteEsquerda2.src = "../img/Inimigo_forte_esquerda_2_vermelho.png";
+     this.spriteEsquerda2.src = "img/Inimigo_forte_esquerda_2_vermelho.png";
 
      // Controle de animação
      this.direcao = 'direita'; // Começa assumindo que está olhando para a direita
@@ -536,7 +536,7 @@ class Eletromagnetismo extends Arma {
         super(1000, Infinity, 5);
         this.raio = 100; // Raio de alcance inicial
         this.imagem = new Image(); // Cria uma nova imagem
-        this.imagem.src = '../img/eletromagnetismo_1.png'; // Pega a imagem da pasta img
+        this.imagem.src = 'img/eletromagnetismo_1.png'; // Pega a imagem da pasta img
         this.tempoRecargaInimigo = 1000; // Tempo de recarga individual para cada inimigo em milissegundos
         this.ultimoDanoInimigo = {}; // Armazena o último tempo de dano aplicado para cada inimigo
     }
@@ -699,7 +699,7 @@ class Jogo {
         // Define a imagem de fundo do jogo
         this.animacaoId = null; // ID da animação atual
         this.fundo = new Image();
-        this.fundo.src = '../img/cenario.png'; // Imagem do cenario
+        this.fundo.src = 'img/cenario.png'; // Imagem do cenario
         this.Eletromagnetismo = new Eletromagnetismo(); // Inicializa a arma de dano em área
         this.Laser = new Laser();// inicializa o laser 
         this.textosDano = []; // Lista para armazenar textos de dano   
